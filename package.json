@@ -1,0 +1,16 @@
+{
+  "name": "discord-welcome-level-bot",
+  "version": "1.0.0",
+  "description": "Custom Discord bot: Welcome Canvas + Leveling System + Mini Games",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
